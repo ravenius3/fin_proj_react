@@ -1,8 +1,4 @@
-export const STOCK_SYMBOLS_AND_COMPANY_NAMES = [
-    {symbol: 'A', company: 'Agilent Technologies Inc. Common Stock'},
-]
-
-const rawData = `A,Agilent Technologies Inc. Common Stock
+export const RAWDATA = `A,Agilent Technologies Inc. Common Stock
 AA,Alcoa Corporation Common Stock 
 AAC,Ares Acquisition Corporation Class A Ordinary Shares
 AACG,ATA Creativity Global American Depositary Shares
