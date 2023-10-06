@@ -1,4 +1,4 @@
-const dataConverter = (string) => {
+export const dataConverter = (string) => {
     let stockList = []
     let stockRowsArray = string.split('\n');
     let stockArray = [];
