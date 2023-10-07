@@ -8,7 +8,7 @@ const CompanyCardList = ({companyData}) => {
                 {companyData.map((symbol, index) => {
                     return(
                         <Col
-                            md='5'
+                            md='3'
                             className="m-4"
                             key = {index}
                         >

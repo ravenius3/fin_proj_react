@@ -1,7 +1,7 @@
 import { Card, CardTitle, CardText, Button } from 'reactstrap'
 
 const CompanyCard = ({symbol}) => {
-    const value = Math.random() * 100 ;
+    const value = (Math.random() * 100).toFixed(2) ;
     const color = ['danger', 'success'];
     const rancolor = color[Math.floor(Math.random()*2)]
 
