@@ -6,8 +6,8 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <Navbar dark color='primary' sticky='top' expand='md' >
-            <NavbarBrand className='ms-5' href='/'>
-                <h1 className='mt-1'>Watchlist App</h1>
+            <NavbarBrand className='ms-auto me-auto' href='/'>
+                <h1 className='text-center'>Watchlist App</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
